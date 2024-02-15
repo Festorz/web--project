@@ -1,0 +1,196 @@
+.collection{
+    /* background-color: red; */
+    margin-top: 5rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.deals{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 240px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+    
+}
+
+.deals h4{
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.deals p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(153, 153, 153);
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.slider{
+    width: 75%;
+    height: 350px;
+}
+
+.arrows{
+    position: absolute;
+    z-index: 10;
+    bottom: 5px;    
+    font-size: 20px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;  
+    gap: 2rem;
+}
+
+.navs{
+    opacity: 0.2;
+    cursor: pointer;
+}
+.navs:hover{
+    opacity: 1;
+}
+
+.collectionItem{
+    height: 350px;
+    flex: 1;
+    width: 100%;
+    cursor: pointer;
+}
+
+.collectionItem figure{
+    overflow: hidden;
+    cursor: pointer;
+    width: auto;
+    height: 180px;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+}
+
+.collectionItem figure img{
+    height: 180px;
+    object-fit: cover; 
+    border-radius: 4px;
+}
+
+.collectionItem figcaption{
+    position: absolute;
+    z-index: 2;
+    top: 155px;    
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    font-size: 12px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    background: rgb(0, 158, 138);
+    color:#fff;
+    border-radius: 2px;
+    padding: 2px;  
+    gap: .2rem;
+    
+}
+.collectionItem figcaption img{
+    height: auto;
+    width: auto;
+    object-fit: contain;
+
+}   
+
+.description {
+    font-size: 13px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -moz-box-orient: vertical;
+    line-height: 21px;
+    height: 42px;
+    box-sizing: border-box;
+    outline: none;
+    color: rgb(51, 51, 51);
+}
+
+.collectionItem text{
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+}
+
+
+.price {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+    font-family: "Pretendard", serif;
+    line-height: 1.15;
+}
+
+.price span{
+    color:rgb(255, 80, 35);
+}
+  .ratings {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    padding: 2px;
+    color: rgb(51, 51, 51);
+  }
+  .ratings img {
+    height: auto;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .delivery{
+    margin-top: 8px;
+    font-size: 12px;
+    padding: 4px 6px;
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 2px;
+    color: rgb(51, 51, 51);
+    gap: 0.2rem;
+  }
+  .delivery img{
+    height: 14px;
+    width: 14px;
+    object-fit: contain;
+  }
+  .brand{
+    display: inline-block;
+    color: rgb(235, 28, 28);
+    background-color: rgb(255, 247, 247);
+    padding: 3px 4px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 2px;
+    letter-spacing: -0.3px;
+  }

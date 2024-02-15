@@ -1,0 +1,44 @@
+.shortcut{
+    /* container:unset; */
+    width: 100%;
+    padding: 16px 0;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    
+}
+
+.shortcut figure{
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    width: 70px;
+    margin:0 18px ;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+}
+
+.shortcut figure img{
+    width: 62px;
+    height: 62px;
+
+}
+
+.shortcut figcaption{
+    color:rgb(51, 51, 51);
+    font-size: 13px;
+    margin-top: 8px;
+    line-height: 15px;
+    font-family: "Pretendard", serif;
+    overflow: hidden;
+    outline: none;
+    width: 100%;
+    letter-spacing: -0.3px;
+    text-align: center;
+    word-break: break-word;
+    line-height: 15px;
+}
