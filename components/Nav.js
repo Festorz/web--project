@@ -1,9 +1,9 @@
-import Link from "next/link";
-import navStyles from "../src/styles/Nav.module.css";
-import logo from "../public/images/logo.svg";
-import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
+import Link from "next/link";
+import logo from "../public/images/logo.svg";
+import navStyles from "../src/styles/Nav.module.css";
 
 const Nav = () => {
   return (

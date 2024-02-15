@@ -1,7 +1,7 @@
-import styles from "../src/styles/Collection.module.css";
 import Image from "next/image";
-import star from "../public/images/star.svg";
 import r_back from "../public/images/return.svg";
+import star from "../public/images/star.svg";
+import styles from "../src/styles/Collection.module.css";
 
 const CollectionItem = ({ collection }) => {
   return (

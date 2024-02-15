@@ -1,8 +1,8 @@
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { useRef } from "react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import collectionStyle from "../src/styles/Collection.module.css";
-import { useState, useRef, useEffect, useCallback } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "swiper/css";

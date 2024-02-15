@@ -1,9 +1,8 @@
-import Head from "next/head";
-import Slider from "../../components/Slider";
+import Collections from "../../components/Collections";
 import Nav from "../../components/Nav";
 import Shortcuts from "../../components/Shortcuts";
+import Slider from "../../components/Slider";
 import styles from "../styles/Layout.module.css";
-import Collections from "../../components/Collections";
 
 export default function Home({ slides, shortcuts, collections }) {
   const excluded_itemIds = [2431, 2430, 2432, 2359];
