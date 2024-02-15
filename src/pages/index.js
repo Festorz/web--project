@@ -6,6 +6,8 @@ import styles from "../styles/Layout.module.css";
 
 export default function Home({ slides, shortcuts, collections }) {
   const excluded_itemIds = [2431, 2430, 2432, 2359];
+
+  // filter items
   const items = collections.items.filter(
     (collection) =>
       collection.type === "SINGLE" &&
@@ -15,12 +17,18 @@ export default function Home({ slides, shortcuts, collections }) {
 
   return (
     <div>
+      {/* display header */}
       <Nav />
+
+      {/* display slides */}
       <Slider slides={slides} />
+
       <div className={styles.container}>
         <main className={styles.main}>
+          {/* list shortcuts */}
           <Shortcuts shortcuts={shortcuts} />
 
+          {/* loop through filtered items */}
           {items.map((collection, index) => (
             <Collections key={index} collections={collection} index={index} />
           ))}
