@@ -26,7 +26,7 @@ const Nav = () => {
             </div>
           </li>
           <li className="right">
-            <Link href="/">Home</Link>
+            <Link href="/">Welcome</Link>
           </li>
         </ul>
       </nav>
