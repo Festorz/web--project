@@ -66,8 +66,8 @@ export const getStaticProps = async () => {
         collections,
       },
     };
-  } catch {
-    console.error("Error fetching data:", error);
+  } catch (e) {
+    console.error("Error fetching data:", e);
 
     // Return props with an empty object and notFound set to true
     return {
